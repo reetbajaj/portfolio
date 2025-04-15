@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skill</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Reet Bajaj</h1>
+            <p><br><br>I'm a sophomore passionate about digital design and web development.</p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/reetbajaj/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/_me.reet_/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/reetbajaj"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More about me</a>
+        </div>
+        <div class="home-img">
+            <img src="reet.jpg">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="reet.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p><br>I am  a motivated BTech student currently in second year, specializing in
+                Computer Science and Engineering with a focus on the Internet of
+                Things. Proficient in frontend development and design, with
+                expertise in Java, Python, and C. Skilled in using design tools like
+                Figma and Canva to create user-friendly interfaces. Passionate
+                about developing innovative solutions that blend technical and
+                creative skills to contribute to impactful projects</p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="skills-wrapper">
+        <div class="container1" id="Skills">
+          <h1 class="heading1">Technical Skills</h1>
+
+          <div class="Technical-bars">
+            <div class="bar">
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line html"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>CSS</span>
+              </div>
+              <div class="progress-line css"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>JavaScript</span>
+              </div>
+              <div class="progress-line javascript"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>Figma</span>
+              </div>
+              <div class="progress-line figma"><span></span></div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <span>C++</span>
+              </div>
+              <div class="progress-line cplusplus"><span></span></div>
+            </div>
+
+          </div>
+        </div>
+        <div class="container2">
+            <h1 class="heading1">Professional Skills</h1>
+
+            <div class="Technical-bars">
+                <div class="bar">
+                    <div class="info">
+                        <span>Creativity</span>
+                    </div>
+                    <div class="progress-line creativity"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Communication</span>
+                    </div>
+                    <div class="progress-line communication"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Problem Solving</span>
+                    </div>
+                    <div class="progress-line problem-solving"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Teamwork</span>
+                    </div>
+                    <div class="progress-line teamwork"><span></span></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+          <h2>Contact <span>Me</span></h2><br>
+          <h4>Let's Work Together</h4>
+          <p>Thank you for visiting my portfolio! I’d love to hear from you. Whether you’re interested in collaborating on a project, have a question about my work, or just want to say hello, feel free to reach out using the contact form below.<br>Looking forward to hear from you soon.</p>
+          <div class="contact-list">
+            <li><i class='bx bxs-send'></i> bajajreet4@gmail.com</li>
+            <li><i class='bx bxs-phone'></i> 8076256429</li>
+          </div>
+          <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/reetbajaj/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/_me.reet_/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/reetbajaj"><i class='bx bxl-github'></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form">
+                <input type="text" placeholder="Enter Your Name" id="name" required>
+                <input type="email" placeholder="Enter Your Email" id="email" required>
+                <input type="text" placeholder="Enter Your Subject">
+                <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <div id="word-counter">Words: 0</div>  <!-- Word counter display -->
+                <input type="submit" value="Submit" class="send">
+                <p id="formStatus"></p>
+            </form>
+        </div>
+        
+      </section>
+      <script src="script.js"></script>
+      
+
+
+</body>
+</html>
